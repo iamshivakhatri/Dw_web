@@ -1,18 +1,26 @@
 // Navbar.jsx
 
 import React from 'react';
+import {Link} from 'react-router-dom';
+import logo from '../CSS/nas.svg';
+
 
 const Navbar = () => {
   return (
     <nav className="bg-sky-500 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-xl font-bold">Logo</div>
+        <Link to= "/">
+        <img src={logo} alt="Logo" style={{ maxWidth: '60px', height: '60%' }} />
+        </Link>
+      
+        <div className="text-white text-xl font-bold">North American Stainless</div>
 
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="text-white">Home</a>
-          <a href="#" className="text-white">About</a>
+          <Link to = "/" className='text-white'>Home</Link>
+          <Link to ="/claims"className="text-white">Claims  </Link>
           <a href="#" className="text-white">Services</a>
           <a href="#" className="text-white">Contact</a>
+          
         </div>
 
         {/* Responsive menu button */}

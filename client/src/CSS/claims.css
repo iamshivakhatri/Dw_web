@@ -1,0 +1,59 @@
+/* Claims.css */
+
+/* Style for the claims container */
+.claims-container {
+    margin: 20px;
+  }
+  
+  /* Style for the claim header */
+  .claim-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the claims table */
+  .claims-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header cells */
+  .claims-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table body cells */
+  .claims-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Style for alternating row colors */
+  .claims-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  /* Style for the container div */
+
+  
+  /* Style for the buttons */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-right: 10px; /* Adjust as needed */
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Hover effect for the buttons */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
