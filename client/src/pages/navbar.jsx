@@ -18,9 +18,11 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4">
           <Link to = "/" className='text-white'>Home</Link>
           <Link to ="/claims"className="text-white">Claims  </Link>
-          <a href="#" className="text-white">Services</a>
-          <a href="#" className="text-white">Contact</a>
-          
+          <Link to ="/cameras"className="text-white">Cameras  </Link>
+          <Link to ="/images"className="text-white">Images </Link>
+          <Link to ="/aboutus"className="text-white">About US  </Link>
+         
+         
         </div>
 
         {/* Responsive menu button */}

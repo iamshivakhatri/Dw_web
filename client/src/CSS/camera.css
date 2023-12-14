@@ -1,0 +1,52 @@
+/* Add this CSS to your existing CSS file */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #011010; /* Change the color to your preference */
+    font-size: 24px; /* Change the font size to your preference */
+}
+
+h3 {
+    color: #011010; /* Change the color to your preference */
+  
+    font-size: 18px; /* Change the font size to your preference */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    border: 1px solid ;
+    padding: 8px;
+    border-radius: 9px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.table__containers {
+    display: flex;
+    justify-content: space-around;
+}
